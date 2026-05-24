@@ -36,3 +36,6 @@ __all__ = [
     "KalaChakra", "Ritu", "Tithi", "Paksha", "VedicDate",
     "IndraNet", "IndraMessage", "MessageType",
 ]
+
+# Phase 5+ additions
+from .maya_vyuha import MayaVyuha
