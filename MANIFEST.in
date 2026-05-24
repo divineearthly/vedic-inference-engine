@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.py
+recursive-include vedic_inference_engine *.py
+recursive-include kernels *.h *.so
