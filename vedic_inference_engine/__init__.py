@@ -1,8 +1,7 @@
 """Vedic Inference Engine — unified Vedic algorithm imports for all Divine Earthly repos.
 सर्वं खल्विदं ब्रह्म — All this is Brahman
 
-Phase 2:
-    from vedic_inference_engine import ChittaKVCache, ChittaContextFilter, ChittaGuna
+9 modules — Phase 3 Pushpa complete.
 """
 
 from .pramana import NyayaScaffold, PramanaSource, PramanaToken
@@ -12,20 +11,17 @@ from .ahimsa108 import Ahimsa108Filter, AhimsaLevel, AhimsaVerdict
 from .antahkarana import Antahkarana, AntahkaranaPart, SensoryStream, BuddhiDecision
 from .kosha import KoshaNet, KoshaLayer, KoshaEntry
 from .chitta_kv import ChittaKVCache, ChittaContextFilter, ChittaGuna
+from .sphota import sphota_attention, sphota_speedup_estimate, is_c_available
+from .manas_gate import ManasGate, SensoryPriority
 
 __all__ = [
-    # Pramana
     "NyayaScaffold", "PramanaSource", "PramanaToken",
-    # Guna
     "Guna", "GunaNeuron", "GunaLayer",
-    # Rta-Dharma
     "RtaDharmaRouter", "DharmaPriority",
-    # Ahimsa-108
     "Ahimsa108Filter", "AhimsaLevel", "AhimsaVerdict",
-    # Antahkarana
     "Antahkarana", "AntahkaranaPart", "SensoryStream", "BuddhiDecision",
-    # Kosha-Net
     "KoshaNet", "KoshaLayer", "KoshaEntry",
-    # Chitta KV Cache
     "ChittaKVCache", "ChittaContextFilter", "ChittaGuna",
+    "sphota_attention", "sphota_speedup_estimate", "is_c_available",
+    "ManasGate", "SensoryPriority",
 ]
